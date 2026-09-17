@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="kicker">practice repository</span>
+      <h1>My First<br>Project</h1>
+      <p class="lede">A small, real codebase to break on purpose — branch it, conflict it, rebase it, and put it back together.</p>
+      <a class="cta" href="#about">See what's inside ↓</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="block">
+      <span class="num">01</span>
+      <div class="block-body">
+        <h2>About</h2>
+        <p>This project exists to be edited badly. Make two branches, change the same line two different ways, and watch Git refuse to guess which one you meant — that's the whole lesson.</p>
+      </div>
+    </section>
+
+    <section id="features" class="block">
+      <span class="num">02</span>
+      <div class="block-body">
+        <h2>What's here</h2>
+        <ul>
+          <li>One page, three files — nothing to get lost in</li>
+          <li>HTML, CSS and JS kept separate, so conflicts stay easy to read</li>
+          <li>Every section below is a good spot to pick a fight with yourself in two branches</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="block">
+      <span class="num">03</span>
+      <div class="block-body">
+        <h2>Try it</h2>
+        <p>Edit this paragraph on a <code>main</code> branch. Edit the same line on a <code>feature</code> branch. Merge or rebase one into the other, and resolve what Git can't decide for you.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built for practice, not for production. <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
