@@ -1,0 +1,3 @@
+echo ".idea/" >> .gitignore
+git add .gitignore
+git commit -m "chore: ignore IDE settings"
